@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ping-pong-tournament/static/css/main.53d25195.chunk.css",
+    "main.js": "/ping-pong-tournament/static/js/main.bc4a7c0c.chunk.js",
+    "main.js.map": "/ping-pong-tournament/static/js/main.bc4a7c0c.chunk.js.map",
+    "runtime-main.js": "/ping-pong-tournament/static/js/runtime-main.4e6f8ff2.js",
+    "runtime-main.js.map": "/ping-pong-tournament/static/js/runtime-main.4e6f8ff2.js.map",
+    "static/js/2.60167ef2.chunk.js": "/ping-pong-tournament/static/js/2.60167ef2.chunk.js",
+    "static/js/2.60167ef2.chunk.js.map": "/ping-pong-tournament/static/js/2.60167ef2.chunk.js.map",
+    "index.html": "/ping-pong-tournament/index.html",
+    "precache-manifest.38ab72acc93b8c526fc1f344f7beabd8.js": "/ping-pong-tournament/precache-manifest.38ab72acc93b8c526fc1f344f7beabd8.js",
+    "service-worker.js": "/ping-pong-tournament/service-worker.js",
+    "static/css/main.53d25195.chunk.css.map": "/ping-pong-tournament/static/css/main.53d25195.chunk.css.map",
+    "static/js/2.60167ef2.chunk.js.LICENSE.txt": "/ping-pong-tournament/static/js/2.60167ef2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e6f8ff2.js",
+    "static/js/2.60167ef2.chunk.js",
+    "static/css/main.53d25195.chunk.css",
+    "static/js/main.bc4a7c0c.chunk.js"
+  ]
+}
