@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ScoreScreen from "./components/score-screen/score-screen.component";
+import useIsLandscape from "./custom-hooks/useIsLandscape";
+import MainMenu from "./components/main-menu/main-menu.component";
+import WinScreen from "./components/win-screen/win-screen.component";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	const isLandscape = useIsLandscape();
+	return <>
+		{ isLandscape ?
+		 <ScoreScreen/>
+		 : <MainMenu/> }
+		<WinScreen/>
+		</>;
+};
 
 export default App;

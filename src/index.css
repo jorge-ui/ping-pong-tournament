@@ -1,7 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: fixed;
+  background: linear-gradient(45deg, rgb(48, 99, 73) 0%, rgb(84, 173, 133) 100%);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Graduate', 'Segoe UI', 'Roboto', 'Oxygen',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

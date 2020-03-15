@@ -1,0 +1,14 @@
+@import 'src/styles/colors';
+
+.root {
+  padding: 0 10px;
+  input {
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #828282;
+    padding: 7px 4px;
+    font-size: 1rem;
+    width: 100%;
+    background-color: $whiteFont;
+  }
+}

@@ -1,0 +1,52 @@
+@import 'src/styles/colors';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .playerName {
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  .playerScore {
+    font-size: 15vw;
+    text-align: center;
+    padding: 8vh 0;
+  }
+
+  .bestOf {
+    display: flex;
+    justify-content: center;
+    span {
+      $size: 3vw;
+      position: relative;
+      display: block;
+      background-image: $buttonBackground;
+      width: $size;
+      height: $size;
+      border-radius: 100%;
+      margin: 0 .6vw;
+      border: 2px solid darken($pingPong, 25%);
+      overflow: hidden;
+      &[won=true]:after {
+        $sizeMultiplier: .4;
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 100%;
+        width: $size * $sizeMultiplier;
+        height: $size * $sizeMultiplier;
+        box-shadow: 0 0 8px white;
+      }
+      &[won=false] {
+        opacity: .6;
+       }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  //background-color: #a8ffa0;
+  display: flex;
+  align-items: stretch;
+  & > * { flex: 1 }
+}

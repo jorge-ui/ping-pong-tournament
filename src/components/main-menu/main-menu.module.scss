@@ -1,0 +1,29 @@
+@import 'src/styles/colors';
+
+.root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  .title {
+    margin: 0;
+    padding-top: 25vw;
+    text-align: center;
+    font-size: 11vw;
+    color: $whiteFont;
+    text-shadow: 0 0 18px #00000070;
+  }
+
+  .players {
+    display: flex;
+    margin-top: 5vh;
+    & > * {
+      text-align: center;
+      flex: 1; 
+    }
+
+    .playerHeading {
+      font-size: 1.3rem;
+    }
+  }
+}

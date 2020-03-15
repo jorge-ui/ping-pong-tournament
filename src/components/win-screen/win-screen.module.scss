@@ -1,0 +1,20 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.52);
+  z-index: 10;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & > * {
+    margin: 4vh auto;
+  }
+  .heading {
+    font-size: 5vw;
+    color: #d0ffa0;
+    text-shadow: 0 3px 3px white;
+  }
+}

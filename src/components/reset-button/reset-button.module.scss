@@ -1,0 +1,13 @@
+@import 'src/styles/colors';
+
+.root {
+  color: $whiteFont;
+  display: block;
+  margin: 15vw auto 0;
+  padding: 2vw 3vw;
+  font-size: 1.1rem;
+  //font-weight: bold;
+  border: 1px solid #6e6e6e;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: $buttonBackground;
+}
